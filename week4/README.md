@@ -21,7 +21,7 @@ public class Singleton {
                 }
             }
         }
-    return uniqueInstance;
+        return uniqueInstance;
     }
 }
 ```
