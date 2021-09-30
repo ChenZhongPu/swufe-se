@@ -9,7 +9,7 @@
 
 ```java
 public class Singleton {
-    private volatile static Singleton uniqueInstance;
+    private volatile Singleton uniqueInstance;
     
     private Singleton() {}
     
