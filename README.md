@@ -1,3 +1,5 @@
+![Build Status](https://app.travis-ci.com/ChenZhongPu/swufe-se.svg?branch=main)
+
 # swufe-se
 Software Engineering Course At SWUFE
 
