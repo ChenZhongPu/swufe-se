@@ -1,0 +1,6 @@
+grammar Graph;
+graph: 'Graph {' edge+ '}';
+vertex: ID;
+edge: vertex '->' vertex '(' NUM ')' ;
+ID: [a-zA-Z]+;
+NUM: [0-9]+;
