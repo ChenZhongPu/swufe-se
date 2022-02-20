@@ -1,6 +1,0 @@
-language: java
-
-jdk:
-  - openjdk11
-
-script: cd week6/spring-web && ./mvnw install -Dmaven.javadoc.skip=true
