@@ -1,1 +1,0 @@
-long cfib(int n);
