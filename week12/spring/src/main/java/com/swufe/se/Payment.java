@@ -1,5 +1,5 @@
 package com.swufe.se;
 
 public interface Payment {
-    void pay(int amount);
+    boolean pay(int amount);
 }
