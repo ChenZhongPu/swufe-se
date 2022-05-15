@@ -28,3 +28,16 @@ jobs:
         run: cd ${{ github.workspace }}/week12/mock && ./gradlew
       - name: Test with gradle
         run: cd ${{ github.workspace }}/week12/mock && ./gradlew test
+  Python-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: cd ${{ github.workspace }}/week14/pyci && pip install -r ./requirements.txt
+      - name: Test with Python
+        run: cd ${{ github.workspace }}/week14/pyci && python ./test_main.py
