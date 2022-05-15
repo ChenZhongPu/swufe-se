@@ -24,9 +24,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Change directory to week12/mock
-        run: cd ${{ github.workspace }}/week12/mock
       - name: Build with gradle
-        run: ./gradlew
+        run: ${{ github.workspace }}/week12/mock/gradlew
       - name: Test with gradle
-        run: ./gradlew test
+        run: ${{ github.workspace }}/week12/mock/gradlew test
