@@ -7,7 +7,7 @@ from main import compute_eig
 class Test(TestCase):
     def test_compute_eig(self):
         A = np.array([[3, -1], [-1, 3]])
-        self.assertAlmostEqual(compute_eig(A), 3)
+        self.assertAlmostEqual(compute_eig(A), 2)
 
 
 if __name__ == '__main__':
