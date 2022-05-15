@@ -1,4 +1,5 @@
 <!-- ![Build Status](https://app.travis-ci.com/ChenZhongPu/swufe-se.svg?branch=main) -->
+![example workflow](https://github.com/ChenZhongPu/swufe-se/actions/workflows/demo.yml/badge.svg)
 
 # swufe-se
 Software Engineering Course At SWUFE
